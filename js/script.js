@@ -7,7 +7,7 @@
 
 // function curday(divider) {
 //     const day = new Date().getDate() < 10 ? `0${new Date().getDate()}` : new Date().getDate();
-//     const month = new Date().getMonth() < 10 ? `0${new Date().getMonth() + 1}`: new Date().getMonth() + 1;
+//     const month = new Date().getMonth() < 9 ? `0${new Date().getMonth() + 1}`: new Date().getMonth() + 1;
 //     const year = new Date().getFullYear();
 //     return `${day}${divider}${month}${divider}${year}`
 // }
